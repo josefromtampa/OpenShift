@@ -32,8 +32,8 @@ module.exports = {
     // port: 8080, 
     // host: process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
 
-    port:  process.env.MEMBERPORTAL_SERVICE_PORT || 80,
-    host: process.env.MEMBERPORTAL_SERVICE_HOST || '127.0.0.1',
+    port:  process.env.PDI_SERVICE_PORT || 80,
+    host: process.env.PDI_SERVICE_HOST || '127.0.0.1',
 
 
   /***************************************************************************
