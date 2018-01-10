@@ -11,7 +11,7 @@
         var host = (_mode == 'prod' ? window.location.protocol + '//memberportal-ibhs.rhcloud.com/' : (_mode == 'test' ? window.location.protocol + '//test-ibhs.rhcloud.com/' : window.location.origin + '/'));
 
 	if (_mode = 'local') host = 'http://localhost:1337/';
-        if (_mode = 'OpenShift') host = 'http://memberportal-memberportal.1d35.starter-us-east-1.openshiftapps.com/';
+        if (_mode = 'OpenShift') host = 'https://memberportal-memberportal.1d35.starter-us-east-1.openshiftapps.com/';
 
         var scriptName = "ibhs.portal.js"; 
         var jQuery; //noconflict reference to jquery
