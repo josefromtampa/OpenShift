@@ -9,6 +9,10 @@ ibhs.data = (function ($) {
     var _session = null;
     var k = 'o&!JPK^pA7ZR@7ZCqfm2FFmQC';
 
+    if (_mode = 'local') host = 'http://localhost:1337/';
+    if (_mode = 'OpenShift') host = 'https://memberportal-ibhs.7e14.starter-us-west-2.openshiftapps.com/';
+
+
     /* helpers */
     var _controller = {
 
