@@ -7,6 +7,6 @@
 module.exports.salesforce = {
     username: 'integration@ibhs.org',
     password: 'Res3archSF*',
-    token: 'a3eWRFpl6xeT5VR0CDcpFjyZ5'
+    token: 'PjDQnEQoL8bahrSdeifUv8ZiD'
     
 };
